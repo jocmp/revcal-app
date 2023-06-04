@@ -168,10 +168,10 @@
     }
   },
   {
-    "id": "cow",
+    "id": "cattle",
     "name": {
       "french": "Bœuf",
-      "english": "the cow"
+      "english": "cattle"
     }
   },
   {
@@ -2563,7 +2563,7 @@
     }
   },
   {
-    "id": "the_revolution",
+    "id": "revolution",
     "name": {
       "french": "La Fête de la Révolution",
       "english": "The Revolution"
