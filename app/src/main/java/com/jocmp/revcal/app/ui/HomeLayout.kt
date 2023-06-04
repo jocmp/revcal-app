@@ -14,7 +14,8 @@ fun HomeLayout() {
             day = viewModel.day,
             goToPreviousDay = { viewModel.goToPreviousDay() },
             goToNextDay = { viewModel.goToNextDay() },
-            jumpToDay = { viewModel.jumpToDay(it) }
+            jumpToDay = { viewModel.jumpToDay(it) },
+            isPreviousDayEnabled = viewModel.isPreviousDayEnabled
         )
     }
 }

@@ -66,7 +66,7 @@ fun DateDialog(
 }
 
 // Choose the first full Gregorian year of the Republic
-val yearRange = IntRange(RevDate.FIRST_REPUBLICAN_GREGORIAN_YEAR + 1, 2100)
+val yearRange = IntRange(RevDate.FIRST_REPUBLICAN_GREGORIAN_YEAR, 2100)
 
 private fun LocalDate.toEpochMilli(): Long {
     return this.atStartOfDay(ZoneId.systemDefault())

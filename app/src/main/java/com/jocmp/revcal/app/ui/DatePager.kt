@@ -17,6 +17,7 @@ fun DatePager(
     goToPreviousDay: () -> Unit = {},
     goToNextDay: () -> Unit = {},
     jumpToDay: (day: LocalDate) -> Unit = {},
+    isPreviousDayEnabled: Boolean = true,
     day: LocalDate,
 ) {
     Column {
@@ -26,7 +27,9 @@ fun DatePager(
         ) {
             Button(onClick = {
                 goToPreviousDay()
-            }) {
+            },
+                enabled = isPreviousDayEnabled
+            ) {
                 Text("-")
             }
             DateDialog(
