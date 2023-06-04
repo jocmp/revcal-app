@@ -18,11 +18,13 @@ data class RevDate(val year: Int, val month: RevMonth, val day: Int) {
     }
 
     companion object {
+        const val FIRST_REPUBLICAN_GREGORIAN_YEAR = 1792
+
         /**
          * Convert the despised reactionary date of the Ancien Régime
          */
         fun fromGregorian(date: LocalDate): RevDate {
-            val start = LocalDate.of(1792, 9, 22)
+            val start = LocalDate.of(FIRST_REPUBLICAN_GREGORIAN_YEAR, 9, 22)
             var days = ChronoUnit.DAYS.between(start, date).toInt()
 
             var year = 1

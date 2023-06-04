@@ -10,6 +10,7 @@ import androidx.compose.material3.rememberDatePickerState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import com.jocmp.revcal.lib.RevDate
 import java.time.Instant
 import java.time.LocalDate
 import java.time.ZoneId
@@ -24,7 +25,8 @@ fun DateDialog(
 ) {
     val (isOpen, setOpen) = remember { mutableStateOf(false) }
     val datePickerState = rememberDatePickerState(
-        initialSelectedDateMillis = startDate.toEpochMilli()
+        initialSelectedDateMillis = startDate.toEpochMilli(),
+        yearRange = yearRange
     )
 
     Button(onClick = { setOpen(true) }) {
@@ -62,6 +64,9 @@ fun DateDialog(
         }
     }
 }
+
+// Choose the first full Gregorian year of the Republic
+val yearRange = IntRange(RevDate.FIRST_REPUBLICAN_GREGORIAN_YEAR + 1, 2100)
 
 private fun LocalDate.toEpochMilli(): Long {
     return this.atStartOfDay(ZoneId.systemDefault())
