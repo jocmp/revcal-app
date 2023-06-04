@@ -60,13 +60,13 @@ fun formatRevDate(day: LocalDate): String {
 
     return if (day.isEqual(LocalDate.now())) {
         stringResource(
-            R.string.current_day,
+            R.string.current_day_celebration,
             formattedDate,
             revDate.symbol.name.english
         )
     } else {
         stringResource(
-            R.string.other_day,
+            R.string.other_day_celebration,
             formattedDate,
             revDate.symbol.name.english
         )

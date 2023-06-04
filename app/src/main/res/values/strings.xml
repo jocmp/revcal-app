@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">RevCal</string>
-    <string name="current_day">Today is %1$s celebrating %2$s</string>
-    <string name="other_day">%1$s celebrates %2$s</string>
+    <string name="date_selector_choose_previous">Previous Day</string>
+    <string name="date_selector_choose_next">Next Day</string>
+    <string name="date_dialog_confirm">OK</string>
+    <string name="date_dialog_cancel">Cancel</string>
+    <string name="current_day_celebration">Today is %1$s celebrating %2$s</string>
+    <string name="other_day_celebration">%1$s celebrates %2$s</string>
     <!-- day month year -->
     <string name="formatted_day">%1$d %2$s %3$d</string>
 </resources>

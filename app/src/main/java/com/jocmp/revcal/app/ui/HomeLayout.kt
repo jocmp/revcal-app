@@ -10,7 +10,7 @@ fun HomeLayout() {
 
     Column {
         Text(text = viewModel.description)
-        DatePager(
+        DateSelector(
             day = viewModel.day,
             goToPreviousDay = { viewModel.goToPreviousDay() },
             goToNextDay = { viewModel.goToNextDay() },
