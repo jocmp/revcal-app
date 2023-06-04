@@ -38,7 +38,6 @@ fun DateSelector(
             FilledIconButton(
                 enabled = isPreviousDayEnabled,
                 onClick = { goToPreviousDay() }
-
             ) {
                 Icon(Icons.Filled.KeyboardArrowLeft, contentDescription = stringResource(R.string.date_selector_choose_previous))
             }

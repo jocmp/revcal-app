@@ -1,16 +1,20 @@
 package com.jocmp.revcal.app.ui
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.jocmp.revcal.app.ui.theme.RevCalTheme
@@ -22,10 +26,26 @@ fun HomeLayout(viewModel: RevDateViewModel = useRevDate()) {
         Modifier
             .padding(16.dp)
             .fillMaxSize(),
-        verticalArrangement = Arrangement.Bottom
+        verticalArrangement = Arrangement.Center
     ) {
-        Text(text = viewModel.description)
-
+        Column(
+            Modifier
+                .fillMaxWidth()
+                .padding(bottom = 16.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Box(
+                Modifier
+                    .padding(bottom = 8.dp)
+                    .fillMaxWidth()
+                    .height(500.dp)
+                    .background(Color.Cyan)
+            )
+            Text(
+                text = viewModel.description,
+                textAlign = TextAlign.Center
+            )
+        }
         DateSelector(
             day = viewModel.day,
             goToPreviousDay = { viewModel.goToPreviousDay() },
@@ -33,7 +53,6 @@ fun HomeLayout(viewModel: RevDateViewModel = useRevDate()) {
             jumpToDay = { viewModel.jumpToDay(it) },
             isPreviousDayEnabled = viewModel.isPreviousDayEnabled
         )
-        Spacer(Modifier.height(48.dp))
     }
 }
 
@@ -41,7 +60,8 @@ fun HomeLayout(viewModel: RevDateViewModel = useRevDate()) {
 @Composable
 fun HomeLayoutPreview() {
     val viewModel = RevDateViewModel(
-        day = LocalDate.of(2023, 6, 4)
+        description = "16 Vendemiaire 1 celebrates the four o'clock flower",
+        day = LocalDate.of(1792, 10, 7)
     )
     RevCalTheme {
         HomeLayout(viewModel)
