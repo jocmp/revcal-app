@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">RevCal</string>
+    <string name="current_day">Today is %1$d celebrating the %2$d</string>
 </resources>

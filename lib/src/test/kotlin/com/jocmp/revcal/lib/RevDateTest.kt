@@ -11,6 +11,7 @@ internal class RevDateTest {
         val expected = RevDate(8, RevMonth.BRUMAIRE, 18)
 
         assertEquals(expected, date)
+        assertEquals("leadworts", date.symbol.id)
     }
 
     @Test
@@ -19,6 +20,7 @@ internal class RevDateTest {
         val expected = RevDate(38, RevMonth.THERMIDOR, 7)
 
         assertEquals(expected, date)
+        assertEquals("mugwort", date.symbol.id)
     }
 
     @Test
@@ -28,5 +30,6 @@ internal class RevDateTest {
         val expected = RevDate(60, RevMonth.FRIMAIRE, 11)
 
         assertEquals(expected, date)
+        assertEquals("wax", date.symbol.id)
     }
 }
