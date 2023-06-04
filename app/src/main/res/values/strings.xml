@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">RevCal</string>
-    <string name="current_day">Today is %1$d celebrating the %2$d</string>
+    <string name="current_day">Today is %1$s celebrating %2$s</string>
+    <string name="other_day">%1$s celebrates %2$s</string>
+    <!-- day month year -->
+    <string name="formatted_day">%1$d %2$s %3$d</string>
 </resources>

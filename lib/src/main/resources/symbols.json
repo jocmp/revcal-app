@@ -3,350 +3,350 @@
     "id": "grape",
     "name": {
       "french": "Raisin",
-      "english": "Grape"
+      "english": "the grape"
     }
   },
   {
     "id": "saffron",
     "name": {
       "french": "Safran",
-      "english": "Saffron"
+      "english": "saffron"
     }
   },
   {
     "id": "chestnut",
     "name": {
       "french": "Châtaigne",
-      "english": "Chestnut"
+      "english": "chestnut"
     }
   },
   {
     "id": "crocus",
     "name": {
       "french": "Colchique",
-      "english": "Crocus"
+      "english": "the crocus"
     }
   },
   {
-    "id": "the_horse",
+    "id": "horse",
     "name": {
       "french": "Cheval",
-      "english": "The Horse"
+      "english": "the horse"
     }
   },
   {
     "id": "impatiens",
     "name": {
       "french": "Balsamine",
-      "english": "Impatiens"
+      "english": "impatiens"
     }
   },
   {
     "id": "carrot",
     "name": {
       "french": "Carotte",
-      "english": "Carrot"
+      "english": "the carrot"
     }
   },
   {
     "id": "amaranth",
     "name": {
       "french": "Amarante",
-      "english": "Amaranth"
+      "english": "amaranth"
     }
   },
   {
     "id": "parsnip",
     "name": {
       "french": "Panais",
-      "english": "Parsnip"
+      "english": "parsnip"
     }
   },
   {
     "id": "vat",
     "name": {
       "french": "Cuve",
-      "english": "Vat"
+      "english": "vat"
     }
   },
   {
     "id": "potato",
     "name": {
       "french": "Pomme de terre",
-      "english": "Potato"
+      "english": "the potato"
     }
   },
   {
     "id": "strawflower",
     "name": {
       "french": "Immortelle",
-      "english": "Strawflower"
+      "english": "the strawflower"
     }
   },
   {
     "id": "calabaza",
     "name": {
       "french": "Potiron",
-      "english": "Calabaza"
+      "english": "the calabaza"
     }
   },
   {
     "id": "mignonette",
     "name": {
       "french": "Réséda",
-      "english": "Mignonette"
+      "english": "mignonette"
     }
   },
   {
     "id": "donkey",
     "name": {
       "french": "Âne",
-      "english": "Donkey"
+      "english": "the donkey"
     }
   },
   {
-    "id": "the_four_oclock_flower",
+    "id": "four_oclock_flower",
     "name": {
       "french": "Belle de nuit",
-      "english": "The four o’clock flower"
+      "english": "the four o’clock flower"
     }
   },
   {
     "id": "pumpkin",
     "name": {
       "french": "Citrouille",
-      "english": "Pumpkin"
+      "english": "the pumpkin"
     }
   },
   {
     "id": "buckwheat",
     "name": {
       "french": "Sarrasin",
-      "english": "Buckwheat"
+      "english": "buckwheat"
     }
   },
   {
     "id": "sunflower",
     "name": {
       "french": "Tournesol",
-      "english": "Sunflower"
+      "english": "the sunflower"
     }
   },
   {
     "id": "wine_press",
     "name": {
       "french": "Pressoir",
-      "english": "Wine-Press"
+      "english": "the wine-press"
     }
   },
   {
     "id": "hemp",
     "name": {
       "french": "Chanvre",
-      "english": "Hemp"
+      "english": "hemp"
     }
   },
   {
     "id": "peach",
     "name": {
       "french": "Pêche",
-      "english": "Peach"
+      "english": "the peach"
     }
   },
   {
     "id": "turnip",
     "name": {
       "french": "Navet",
-      "english": "Turnip"
+      "english": "the turnip"
     }
   },
   {
     "id": "amaryllis",
     "name": {
       "french": "Amaryllis",
-      "english": "Amaryllis"
+      "english": "amaryllis"
     }
   },
   {
-    "id": "the_cow",
+    "id": "cow",
     "name": {
       "french": "Bœuf",
-      "english": "The Cow"
+      "english": "the cow"
     }
   },
   {
     "id": "eggplant",
     "name": {
       "french": "Aubergine",
-      "english": "Eggplant"
+      "english": "eggplant"
     }
   },
   {
     "id": "chili_pepper",
     "name": {
       "french": "Piment",
-      "english": "Chili Pepper"
+      "english": "the chili pepper"
     }
   },
   {
     "id": "tomato",
     "name": {
       "french": "Tomate",
-      "english": "Tomato"
+      "english": "the tomato"
     }
   },
   {
     "id": "barley",
     "name": {
       "french": "Orge",
-      "english": "Barley"
+      "english": "barley"
     }
   },
   {
     "id": "barrel",
     "name": {
       "french": "Tonneau",
-      "english": "Barrel"
+      "english": "the barrel"
     }
   },
   {
     "id": "apple",
     "name": {
       "french": "Pomme",
-      "english": "Apple"
+      "english": "the apple"
     }
   },
   {
     "id": "celery",
     "name": {
       "french": "Céleri",
-      "english": "Celery"
+      "english": "celery"
     }
   },
   {
     "id": "pear",
     "name": {
       "french": "Poire",
-      "english": "Pear"
+      "english": "the pear"
     }
   },
   {
     "id": "beet_root",
     "name": {
       "french": "Betterave",
-      "english": "Beet root"
+      "english": "beet root"
     }
   },
   {
     "id": "goose",
     "name": {
       "french": "Oie",
-      "english": "Goose"
+      "english": "the goose"
     }
   },
   {
     "id": "heliotrope",
     "name": {
       "french": "Héliotrope",
-      "english": "Heliotrope"
+      "english": "heliotrope"
     }
   },
   {
     "id": "fig",
     "name": {
       "french": "Figue",
-      "english": "Fig"
+      "english": "the fig"
     }
   },
   {
     "id": "black_salsify",
     "name": {
       "french": "Scorsonère",
-      "english": "Black Salsify"
+      "english": "black salsify"
     }
   },
   {
     "id": "chequer_tree",
     "name": {
       "french": "Alisier",
-      "english": "Chequer Tree"
+      "english": "the chequer tree"
     }
   },
   {
     "id": "plough",
     "name": {
       "french": "Charrue",
-      "english": "Plough"
+      "english": "the plough"
     }
   },
   {
     "id": "salsify",
     "name": {
       "french": "Salsifis",
-      "english": "Salsify"
+      "english": "salsify"
     }
   },
   {
     "id": "water_chestnut",
     "name": {
       "french": "Macre",
-      "english": "Water chestnut"
+      "english": "the water chestnut"
     }
   },
   {
     "id": "jerusalem_artichoke",
     "name": {
       "french": "Topinambour",
-      "english": "Jerusalem Artichoke"
+      "english": "the Jerusalem artichoke"
     }
   },
   {
     "id": "endive",
     "name": {
       "french": "Endive",
-      "english": "Endive"
+      "english": "endive"
     }
   },
   {
     "id": "turkey",
     "name": {
       "french": "Dindon",
-      "english": "Turkey"
+      "english": "the turkey"
     }
   },
   {
     "id": "skirret",
     "name": {
       "french": "Chervis",
-      "english": "Skirret"
+      "english": "skirret"
     }
   },
   {
     "id": "watercress",
     "name": {
       "french": "Cresson",
-      "english": "Watercress"
+      "english": "watercress"
     }
   },
   {
     "id": "leadworts",
     "name": {
       "french": "Dentelaire",
-      "english": "Leadworts"
+      "english": "leadworts"
     }
   },
   {
     "id": "pomegranate",
     "name": {
       "french": "Grenade",
-      "english": "Pomegranate"
+      "english": "the pomegranate"
     }
   },
   {
     "id": "harrow",
     "name": {
       "french": "Herse",
-      "english": "Harrow"
+      "english": "harrow"
     }
   },
   {
@@ -367,161 +367,161 @@
     "id": "madder",
     "name": {
       "french": "Garance",
-      "english": "Madder"
+      "english": "madder"
     }
   },
   {
     "id": "orange",
     "name": {
       "french": "Orange",
-      "english": "Orange"
+      "english": "the orange"
     }
   },
   {
     "id": "pheasant",
     "name": {
       "french": "Faisan",
-      "english": "Pheasant"
+      "english": "the pheasant"
     }
   },
   {
     "id": "pistachio",
     "name": {
       "french": "Pistache",
-      "english": "Pistachio"
+      "english": "the pistachio"
     }
   },
   {
     "id": "tuberous_pea",
     "name": {
       "french": "Macjonc",
-      "english": "Tuberous pea"
+      "english": "the Tuberous pea"
     }
   },
   {
     "id": "quince",
     "name": {
       "french": "Coing",
-      "english": "Quince"
+      "english": "quince"
     }
   },
   {
     "id": "service_tree",
     "name": {
       "french": "Cormier",
-      "english": "Service tree"
+      "english": "the service tree"
     }
   },
   {
     "id": "roller",
     "name": {
       "french": "Rouleau",
-      "english": "Roller"
+      "english": "roller"
     }
   },
   {
     "id": "rampion",
     "name": {
       "french": "Raiponce",
-      "english": "Rampion"
+      "english": "rampion"
     }
   },
   {
     "id": "turnip",
     "name": {
       "french": "Turneps",
-      "english": "Turnip"
+      "english": "the turnip"
     }
   },
   {
     "id": "chicory",
     "name": {
       "french": "Chicorée",
-      "english": "Chicory"
+      "english": "chicory"
     }
   },
   {
     "id": "medlar",
     "name": {
       "french": "Nèfle",
-      "english": "Medlar"
+      "english": "medlar"
     }
   },
   {
     "id": "pig",
     "name": {
       "french": "Cochon",
-      "english": "Pig"
+      "english": "the pig"
     }
   },
   {
     "id": "corn_salad",
     "name": {
       "french": "Mâche",
-      "english": "Corn Salad"
+      "english": "corn salad"
     }
   },
   {
     "id": "cauliflower",
     "name": {
       "french": "Chou-fleur",
-      "english": "Cauliflower"
+      "english": "cauliflower"
     }
   },
   {
     "id": "honey",
     "name": {
       "french": "Miel",
-      "english": "Honey"
+      "english": "honey"
     }
   },
   {
     "id": "juniper",
     "name": {
       "french": "Genièvre",
-      "english": "Juniper"
+      "english": "juniper"
     }
   },
   {
     "id": "pickaxe",
     "name": {
       "french": "Pioche",
-      "english": "Pickaxe"
+      "english": "pickaxe"
     }
   },
   {
     "id": "wax",
     "name": {
       "french": "Cire",
-      "english": "Wax"
+      "english": "wax"
     }
   },
   {
     "id": "horseradish",
     "name": {
       "french": "Raifort",
-      "english": "Horseradish"
+      "english": "horseradish"
     }
   },
   {
     "id": "cedar_tree",
     "name": {
       "french": "Cèdre",
-      "english": "Cedar tree"
+      "english": "the cedar tree"
     }
   },
   {
     "id": "fir_tree",
     "name": {
       "french": "Sapin",
-      "english": "Fir tree"
+      "english": "the fir tree"
     }
   },
   {
     "id": "roe_deer",
     "name": {
       "french": "Chevreuil",
-      "english": "Roe Deer"
+      "english": "the Roe deer"
     }
   },
   {
@@ -535,70 +535,70 @@
     "id": "cypress_tree",
     "name": {
       "french": "Cyprès",
-      "english": "Cypress Tree"
+      "english": "the cypress tree"
     }
   },
   {
     "id": "ivy",
     "name": {
       "french": "Lierre",
-      "english": "Ivy"
+      "english": "ivy"
     }
   },
   {
     "id": "juniper",
     "name": {
       "french": "Sabine",
-      "english": "Juniper"
+      "english": "juniper"
     }
   },
   {
     "id": "grub_hoe",
     "name": {
       "french": "Hoyau",
-      "english": "Grub-hoe"
+      "english": "the grub-hoe"
     }
   },
   {
     "id": "maple_tree",
     "name": {
       "french": "Érable sucré",
-      "english": "Maple Tree"
+      "english": "the maple tree"
     }
   },
   {
     "id": "heather",
     "name": {
       "french": "Bruyère",
-      "english": "Heather"
+      "english": "heather"
     }
   },
   {
     "id": "reed_plant",
     "name": {
       "french": "Roseau",
-      "english": "Reed plant"
+      "english": "the reed plant"
     }
   },
   {
     "id": "sorrel",
     "name": {
       "french": "Oseille",
-      "english": "Sorrel"
+      "english": "sorrel"
     }
   },
   {
     "id": "cricket",
     "name": {
       "french": "Grillon",
-      "english": "Cricket"
+      "english": "the cricket"
     }
   },
   {
     "id": "pinenut",
     "name": {
       "french": "Pignon",
-      "english": "Pinenut"
+      "english": "the pinenut"
     }
   },
   {
@@ -612,224 +612,224 @@
     "id": "truffle",
     "name": {
       "french": "Truffe",
-      "english": "Truffle"
+      "english": "truffle"
     }
   },
   {
     "id": "olive",
     "name": {
       "french": "Olive",
-      "english": "Olive"
+      "english": "the olive"
     }
   },
   {
     "id": "shovel",
     "name": {
       "french": "Pelle",
-      "english": "shovel"
+      "english": "the shovel"
     }
   },
   {
     "id": "peat",
     "name": {
       "french": "Tourbe",
-      "english": "Peat"
+      "english": "peat"
     }
   },
   {
     "id": "coal",
     "name": {
       "french": "Houille",
-      "english": "Coal"
+      "english": "coal"
     }
   },
   {
     "id": "bitumen",
     "name": {
       "french": "Bitume",
-      "english": "Bitumen"
+      "english": "bitumen"
     }
   },
   {
     "id": "sulphur",
     "name": {
       "french": "Soufre",
-      "english": "Sulphur"
+      "english": "sulphur"
     }
   },
   {
     "id": "dog",
     "name": {
       "french": "Chien",
-      "english": "Dog"
+      "english": "the dog"
     }
   },
   {
     "id": "lava",
     "name": {
       "french": "Lave",
-      "english": "Lava"
+      "english": "lava"
     }
   },
   {
     "id": "topsoil",
     "name": {
       "french": "Terre végétale",
-      "english": "Topsoil"
+      "english": "topsoil"
     }
   },
   {
     "id": "manure",
     "name": {
       "french": "Fumier",
-      "english": "Manure"
+      "english": "manure"
     }
   },
   {
     "id": "saltpeter",
     "name": {
       "french": "Salpêtre",
-      "english": "Saltpeter"
+      "english": "saltpeter"
     }
   },
   {
     "id": "flail",
     "name": {
       "french": "Fléau",
-      "english": "Flail"
+      "english": "flail"
     }
   },
   {
     "id": "granite_stone",
     "name": {
       "french": "Granit",
-      "english": "Granite stone"
+      "english": "the granite stone"
     }
   },
   {
     "id": "clay",
     "name": {
       "french": "Argile",
-      "english": "Clay"
+      "english": "clay"
     }
   },
   {
     "id": "slate",
     "name": {
       "french": "Ardoise",
-      "english": "Slate"
+      "english": "slate"
     }
   },
   {
     "id": "sandstone",
     "name": {
       "french": "Grès",
-      "english": "Sandstone"
+      "english": "sandstone"
     }
   },
   {
     "id": "rabbit",
     "name": {
       "french": "Lapin",
-      "english": "Rabbit"
+      "english": "the rabbit"
     }
   },
   {
     "id": "flint",
     "name": {
       "french": "Silex",
-      "english": "Flint"
+      "english": "flint"
     }
   },
   {
     "id": "marl",
     "name": {
       "french": "Marne",
-      "english": "Marl"
+      "english": "marl"
     }
   },
   {
     "id": "limestone",
     "name": {
       "french": "Pierre à chaux",
-      "english": "Limestone"
+      "english": "limestone"
     }
   },
   {
     "id": "marble",
     "name": {
       "french": "Marbre",
-      "english": "Marble"
+      "english": "marble"
     }
   },
   {
     "id": "winnowing_basket",
     "name": {
       "french": "Van",
-      "english": "Winnowing basket"
+      "english": "the winnowing basket"
     }
   },
   {
     "id": "gypsum",
     "name": {
       "french": "Pierre à plâtre",
-      "english": "Gypsum"
+      "english": "gypsum"
     }
   },
   {
     "id": "salt",
     "name": {
       "french": "Sel",
-      "english": "Salt"
+      "english": "salt"
     }
   },
   {
     "id": "iron",
     "name": {
       "french": "Fer",
-      "english": "Iron"
+      "english": "iron"
     }
   },
   {
     "id": "copper",
     "name": {
       "french": "Cuivre",
-      "english": "Copper"
+      "english": "copper"
     }
   },
   {
-    "id": "the_cat",
+    "id": "cat",
     "name": {
       "french": "Chat",
-      "english": "The Cat"
+      "english": "the cat"
     }
   },
   {
     "id": "tin",
     "name": {
       "french": "Étain",
-      "english": "Tin"
+      "english": "tin"
     }
   },
   {
     "id": "lead",
     "name": {
       "french": "Plomb",
-      "english": "Lead"
+      "english": "lead"
     }
   },
   {
     "id": "zinc",
     "name": {
       "french": "Zinc",
-      "english": "Zinc"
+      "english": "zinc"
     }
   },
   {
     "id": "mercury",
     "name": {
       "french": "Mercure",
-      "english": "Mercury"
+      "english": "mercury"
     },
     "description": "metal"
   },
@@ -837,56 +837,56 @@
     "id": "sieve",
     "name": {
       "french": "Crible",
-      "english": "Sieve"
+      "english": "sieve"
     }
   },
   {
     "id": "spurge_laurel",
     "name": {
       "french": "Lauréole",
-      "english": "Spurge-laurel"
+      "english": "spurge-laurel"
     }
   },
   {
     "id": "moss",
     "name": {
       "french": "Mousse",
-      "english": "Moss"
+      "english": "moss"
     }
   },
   {
     "id": "butchers_broom",
     "name": {
       "french": "Fragon",
-      "english": "Butcher’s Broom"
+      "english": "the butcher’s broom"
     }
   },
   {
     "id": "snowdrop",
     "name": {
       "french": "Perce-neige",
-      "english": "Snowdrop"
+      "english": "snowdrop"
     }
   },
   {
     "id": "bull",
     "name": {
       "french": "Taureau",
-      "english": "Bull"
+      "english": "the bull"
     }
   },
   {
     "id": "laurustinus",
     "name": {
       "french": "Laurier-thym",
-      "english": "Laurustinus"
+      "english": "laurustinus"
     }
   },
   {
     "id": "tinder_polypore",
     "name": {
       "french": "Amadouvier",
-      "english": "Tinder polypore"
+      "english": "the tinder polypore"
     }
   },
   {
@@ -900,14 +900,14 @@
     "id": "poplar_tree",
     "name": {
       "french": "Peuplier",
-      "english": "Poplar Tree"
+      "english": "the poplar Tree"
     }
   },
   {
     "id": "axe",
     "name": {
       "french": "Coignée",
-      "english": "Axe"
+      "english": "the axe"
     }
   },
   {
@@ -921,21 +921,21 @@
     "id": "broccoli",
     "name": {
       "french": "Brocoli",
-      "english": "Broccoli"
+      "english": "broccoli"
     }
   },
   {
     "id": "laurel",
     "name": {
       "french": "Laurier",
-      "english": "Laurel"
+      "english": "laurel"
     }
   },
   {
     "id": "cob",
     "name": {
       "french": "Avelinier",
-      "english": "Cob"
+      "english": "the cob"
     },
     "description": "Filbert"
   },
@@ -943,98 +943,98 @@
     "id": "cow",
     "name": {
       "french": "Vache",
-      "english": "Cow"
+      "english": "the cow"
     }
   },
   {
     "id": "box_tree",
     "name": {
       "french": "Buis",
-      "english": "Box Tree"
+      "english": "the box tree"
     }
   },
   {
     "id": "lichen",
     "name": {
       "french": "Lichen",
-      "english": "Lichen"
+      "english": "lichen"
     }
   },
   {
     "id": "yew_tree",
     "name": {
       "french": "If",
-      "english": "Yew tree"
+      "english": "the yew tree"
     }
   },
   {
     "id": "lungwort",
     "name": {
       "french": "Pulmonaire",
-      "english": "Lungwort"
+      "english": "lungwort"
     }
   },
   {
     "id": "billhook",
     "name": {
       "french": "Serpette",
-      "english": "Billhook"
+      "english": "billhook"
     }
   },
   {
     "id": "pennycress",
     "name": {
       "french": "Thlaspi",
-      "english": "Pennycress"
+      "english": "pennycress"
     }
   },
   {
     "id": "rose_daphne",
     "name": {
       "french": "Thimelé",
-      "english": "Rose Daphne"
+      "english": "the rose daphne"
     }
   },
   {
     "id": "couch_grass",
     "name": {
       "french": "Chiendent",
-      "english": "Couch Grass"
+      "english": "couch grass"
     }
   },
   {
     "id": "knotweed",
     "name": {
       "french": "Trainasse",
-      "english": "Knotweed"
+      "english": "knotweed"
     }
   },
   {
     "id": "hare",
     "name": {
       "french": "Lièvre",
-      "english": "Hare"
+      "english": "the hare"
     }
   },
   {
     "id": "woad",
     "name": {
       "french": "Guède",
-      "english": "Woad"
+      "english": "woad"
     }
   },
   {
     "id": "hazel",
     "name": {
       "french": "Noisetier",
-      "english": "Hazel"
+      "english": "hazel"
     }
   },
   {
     "id": "cyclamen",
     "name": {
       "french": "Cyclamen",
-      "english": "Cyclamen"
+      "english": "cyclamen"
     }
   },
   {
@@ -1048,63 +1048,63 @@
     "id": "sleigh",
     "name": {
       "french": "Traîneau",
-      "english": "Sleigh"
+      "english": "the sleigh"
     }
   },
   {
     "id": "coltsfoot",
     "name": {
       "french": "Tussilage",
-      "english": "Coltsfoot"
+      "english": "coltsfoot"
     }
   },
   {
     "id": "dogwood",
     "name": {
       "french": "Cornouiller",
-      "english": "Dogwood"
+      "english": "dogwood"
     }
   },
   {
     "id": "matthiola",
     "name": {
       "french": "Violier",
-      "english": "Matthiola"
+      "english": "matthiola"
     }
   },
   {
     "id": "privet",
     "name": {
       "french": "Troène",
-      "english": "Privet"
+      "english": "privet"
     }
   },
   {
     "id": "billygoat",
     "name": {
       "french": "Bouc",
-      "english": "Billygoat"
+      "english": "the billygoat"
     }
   },
   {
     "id": "wild_ginger",
     "name": {
       "french": "Asaret",
-      "english": "Wild Ginger"
+      "english": "wild ginger"
     }
   },
   {
     "id": "buckthorn",
     "name": {
       "french": "Alaterne",
-      "english": "Buckthorn"
+      "english": "buckthorn"
     }
   },
   {
     "id": "violet",
     "name": {
       "french": "Violette",
-      "english": "Violet"
+      "english": "the violet"
     },
     "description": "plant"
   },
@@ -1112,56 +1112,56 @@
     "id": "goat_willow",
     "name": {
       "french": "Marceau",
-      "english": "Goat Willow"
+      "english": "the goat willow"
     }
   },
   {
     "id": "spade",
     "name": {
       "french": "Bêche",
-      "english": "Spade"
+      "english": "the spade"
     }
   },
   {
     "id": "narcissus",
     "name": {
       "french": "Narcisse",
-      "english": "Narcissus"
+      "english": "narcissus"
     }
   },
   {
     "id": "elm_tree",
     "name": {
       "french": "Orme",
-      "english": "Elm Tree"
+      "english": "the elm tree"
     }
   },
   {
     "id": "common_fumitory",
     "name": {
       "french": "Fumeterre",
-      "english": "Common fumitory"
+      "english": "the common fumitory"
     }
   },
   {
     "id": "hedge_mustard",
     "name": {
       "french": "Vélar",
-      "english": "Hedge Mustard"
+      "english": "hedge mustard"
     }
   },
   {
-    "id": "the_goat",
+    "id": "goat",
     "name": {
       "french": "Chèvre",
-      "english": "The Goat"
+      "english": "the goat"
     }
   },
   {
     "id": "spinach",
     "name": {
       "french": "Épinard",
-      "english": "Spinach"
+      "english": "spinach"
     }
   },
   {
@@ -1175,91 +1175,91 @@
     "id": "pimpernel",
     "name": {
       "french": "Mouron",
-      "english": "Pimpernel"
+      "english": "pimpernel"
     }
   },
   {
     "id": "chervil",
     "name": {
       "french": "Cerfeuil",
-      "english": "Chervil"
+      "english": "chervil"
     }
   },
   {
     "id": "twine",
     "name": {
       "french": "Cordeau",
-      "english": "Twine"
+      "english": "twine"
     }
   },
   {
     "id": "mandrake",
     "name": {
       "french": "Mandragore",
-      "english": "Mandrake"
+      "english": "the mandrake"
     }
   },
   {
     "id": "parsley",
     "name": {
       "french": "Persil",
-      "english": "Parsley"
+      "english": "parsley"
     }
   },
   {
     "id": "scurvy_grass",
     "name": {
       "french": "Cochléaria",
-      "english": "Scurvy-grass"
+      "english": "scurvy-grass"
     }
   },
   {
     "id": "daisy",
     "name": {
       "french": "Pâquerette",
-      "english": "Daisy"
+      "english": "the daisy"
     }
   },
   {
     "id": "tuna",
     "name": {
       "french": "Thon",
-      "english": "Tuna"
+      "english": "tuna"
     }
   },
   {
     "id": "dandelion",
     "name": {
       "french": "Pissenlit",
-      "english": "Dandelion"
+      "english": "the dandelion"
     }
   },
   {
     "id": "forest",
     "name": {
       "french": "Sylve",
-      "english": "Forest"
+      "english": "the forest"
     }
   },
   {
     "id": "maidenhair_fern",
     "name": {
       "french": "Capillaire",
-      "english": "Maidenhair fern"
+      "english": "maidenhair fern"
     }
   },
   {
     "id": "ash_tree",
     "name": {
       "french": "Frêne",
-      "english": "Ash Tree"
+      "english": "ash tree"
     }
   },
   {
     "id": "dibber",
     "name": {
       "french": "Plantoir",
-      "english": "Dibber"
+      "english": "the dibber"
     },
     "description": "a hand gardening tool"
   },
@@ -1267,168 +1267,168 @@
     "id": "primrose",
     "name": {
       "french": "Primevère",
-      "english": "Primrose"
+      "english": "primrose"
     }
   },
   {
     "id": "plane_tree",
     "name": {
       "french": "Platane",
-      "english": "Plane Tree"
+      "english": "the plane tree"
     }
   },
   {
     "id": "asparagus",
     "name": {
       "french": "Asperge",
-      "english": "Asparagus"
+      "english": "asparagus"
     }
   },
   {
     "id": "tulip",
     "name": {
       "french": "Tulipe",
-      "english": "Tulip"
+      "english": "the tulip"
     }
   },
   {
     "id": "hen",
     "name": {
       "french": "Poule",
-      "english": "Hen"
+      "english": "the hen"
     }
   },
   {
     "id": "chard_plant",
     "name": {
       "french": "Bette",
-      "english": "Chard Plant"
+      "english": "the chard plant"
     }
   },
   {
     "id": "birch_tree",
     "name": {
       "french": "Bouleau",
-      "english": "Birch Tree"
+      "english": "the birch tree"
     }
   },
   {
     "id": "daffodil",
     "name": {
       "french": "Jonquille",
-      "english": "Daffodil"
+      "english": "the daffodil"
     }
   },
   {
     "id": "alder",
     "name": {
       "french": "Aulne",
-      "english": "Alder"
+      "english": "alder"
     }
   },
   {
     "id": "hatchery",
     "name": {
       "french": "Couvoir",
-      "english": "Hatchery"
+      "english": "the hatchery"
     }
   },
   {
     "id": "periwinkle",
     "name": {
       "french": "Pervenche",
-      "english": "Periwinkle"
+      "english": "the periwinkle"
     }
   },
   {
     "id": "ironwood",
     "name": {
       "french": "Charme",
-      "english": "Ironwood"
+      "english": "ironwood"
     }
   },
   {
     "id": "morel",
     "name": {
       "french": "Morille",
-      "english": "Morel"
+      "english": "the morel"
     }
   },
   {
     "id": "beech_tree",
     "name": {
       "french": "Hêtre",
-      "english": "Beech Tree"
+      "english": "the beech tree"
     }
   },
   {
     "id": "bee",
     "name": {
       "french": "Abeille",
-      "english": "Bee"
+      "english": "the bee"
     }
   },
   {
     "id": "lettuce",
     "name": {
       "french": "Laitue",
-      "english": "Lettuce"
+      "english": "lettuce"
     }
   },
   {
     "id": "larch",
     "name": {
       "french": "Mélèze",
-      "english": "Larch"
+      "english": "larch"
     }
   },
   {
     "id": "hemlock",
     "name": {
       "french": "Ciguë",
-      "english": "Hemlock"
+      "english": "hemlock"
     }
   },
   {
     "id": "radish",
     "name": {
       "french": "Radis",
-      "english": "Radish"
+      "english": "the radish"
     }
   },
   {
     "id": "hive",
     "name": {
       "french": "Ruche",
-      "english": "Hive"
+      "english": "the hive"
     }
   },
   {
     "id": "judas_tree",
     "name": {
       "french": "Gainier",
-      "english": "Judas tree"
+      "english": "the Judas tree"
     }
   },
   {
     "id": "lettuce",
     "name": {
       "french": "Romaine",
-      "english": "Lettuce"
+      "english": "lettuce"
     }
   },
   {
     "id": "chestnut_oak",
     "name": {
       "french": "Marronnier",
-      "english": "Chestnut Oak"
+      "english": "the chestnut oak"
     }
   },
   {
     "id": "arugula",
     "name": {
       "french": "Roquette",
-      "english": "Arugula"
+      "english": "arugula"
     },
     "description": "Rocket"
   },
@@ -1436,224 +1436,224 @@
     "id": "pigeon",
     "name": {
       "french": "Pigeon",
-      "english": "Pigeon"
+      "english": "the pigeon"
     }
   },
   {
     "id": "lilac",
     "name": {
       "french": "Lilas",
-      "english": "Lilac"
+      "english": "the lilac"
     }
   },
   {
     "id": "anemone",
     "name": {
       "french": "Anémone",
-      "english": "Anemone"
+      "english": "the anemone"
     }
   },
   {
     "id": "pansy",
     "name": {
       "french": "Pensée",
-      "english": "Pansy"
+      "english": "the pansy"
     }
   },
   {
     "id": "blueberry",
     "name": {
       "french": "Myrtille",
-      "english": "Blueberry"
+      "english": "the blueberry"
     }
   },
   {
     "id": "knife",
     "name": {
       "french": "Greffoir",
-      "english": "Knife"
+      "english": "the knife"
     }
   },
   {
     "id": "rose",
     "name": {
       "french": "Rose",
-      "english": "Rose"
+      "english": "the rose"
     }
   },
   {
     "id": "oak_tree",
     "name": {
       "french": "Chêne",
-      "english": "Oak Tree"
+      "english": "the oak tree"
     }
   },
   {
     "id": "fern",
     "name": {
       "french": "Fougère",
-      "english": "Fern"
+      "english": "the fern"
     }
   },
   {
     "id": "hawthorn",
     "name": {
       "french": "Aubépine",
-      "english": "Hawthorn"
+      "english": "hawthorn"
     }
   },
   {
     "id": "nightingale",
     "name": {
       "french": "Rossignol",
-      "english": "Nightingale"
+      "english": "the nightingale"
     }
   },
   {
     "id": "columbine",
     "name": {
       "french": "Ancolie",
-      "english": "Columbine"
+      "english": "columbine"
     }
   },
   {
     "id": "lily_of_the_valley",
     "name": {
       "french": "Muguet",
-      "english": "Lily of the Valley"
+      "english": "the Lily of the Valley"
     }
   },
   {
     "id": "button_mushroom",
     "name": {
       "french": "Champignon",
-      "english": "Button mushroom"
+      "english": "the button mushroom"
     }
   },
   {
     "id": "hyacinth",
     "name": {
       "french": "Hyacinthe",
-      "english": "Hyacinth"
+      "english": "hyacinth"
     }
   },
   {
     "id": "rake",
     "name": {
       "french": "Râteau",
-      "english": "Rake"
+      "english": "the rake"
     }
   },
   {
     "id": "rhubarb",
     "name": {
       "french": "Rhubarbe",
-      "english": "Rhubarb"
+      "english": "rhubarb"
     }
   },
   {
     "id": "sainfoin",
     "name": {
       "french": "Sainfoin",
-      "english": "Sainfoin"
+      "english": "sainfoin"
     }
   },
   {
     "id": "wallflower",
     "name": {
       "french": "Bâton-d’or",
-      "english": "Wallflower"
+      "english": "the wallflower"
     }
   },
   {
     "id": "palm_tree",
     "name": {
       "french": "Chamérops",
-      "english": "Palm tree"
+      "english": "the palm tree"
     }
   },
   {
     "id": "silkworm",
     "name": {
       "french": "Ver à soie",
-      "english": "Silkworm"
+      "english": "the silkworm"
     }
   },
   {
     "id": "comfrey",
     "name": {
       "french": "Consoude",
-      "english": "Comfrey"
+      "english": "comfrey"
     }
   },
   {
     "id": "salad_burnet",
     "name": {
       "french": "Pimprenelle",
-      "english": "Salad Burnet"
+      "english": "the salad burnet"
     }
   },
   {
     "id": "basket_of_gold",
     "name": {
       "french": "Corbeille d’or",
-      "english": "Basket of Gold"
+      "english": "the Basket of Gold"
     }
   },
   {
     "id": "orache",
     "name": {
       "french": "Arroche",
-      "english": "Orache"
+      "english": "orache"
     }
   },
   {
     "id": "garden_hoe",
     "name": {
       "french": "Sarcloir",
-      "english": "Garden hoe"
+      "english": "the garden hoe"
     }
   },
   {
     "id": "sea_lavender",
     "name": {
       "french": "Statice",
-      "english": "Sea Lavender"
+      "english": "the sea lavender"
     }
   },
   {
     "id": "fritillary",
     "name": {
       "french": "Fritillaire",
-      "english": "Fritillary"
+      "english": "fritillary"
     }
   },
   {
     "id": "borage",
     "name": {
       "french": "Bourrache",
-      "english": "Borage"
+      "english": "borage"
     }
   },
   {
     "id": "valerian",
     "name": {
       "french": "Valériane",
-      "english": "Valerian"
+      "english": "valerian"
     }
   },
   {
     "id": "carp",
     "name": {
       "french": "Carpe",
-      "english": "Carp"
+      "english": "the carp"
     }
   },
   {
     "id": "spindle",
     "name": {
       "french": "Fusain",
-      "english": "Spindle"
+      "english": "the spindle"
     },
     "description": "shrub"
   },
@@ -1661,161 +1661,161 @@
     "id": "chive",
     "name": {
       "french": "Civette",
-      "english": "Chive"
+      "english": "chive"
     }
   },
   {
     "id": "bugloss",
     "name": {
       "french": "Buglosse",
-      "english": "Bugloss"
+      "english": "bugloss"
     }
   },
   {
     "id": "wild_mustard",
     "name": {
       "french": "Sénevé",
-      "english": "Wild mustard"
+      "english": "wild mustard"
     }
   },
   {
     "id": "shepherds_crook",
     "name": {
       "french": "Houlette",
-      "english": "Shepherd’s crook"
+      "english": "shepherd’s crook"
     }
   },
   {
     "id": "alfalfa",
     "name": {
       "french": "Luzerne",
-      "english": "Alfalfa"
+      "english": "alfalfa"
     }
   },
   {
     "id": "daylily",
     "name": {
       "french": "Hémérocalle",
-      "english": "Daylily"
+      "english": "the daylily"
     }
   },
   {
     "id": "clover",
     "name": {
       "french": "Trèfle",
-      "english": "Clover"
+      "english": "clover"
     }
   },
   {
     "id": "angelica",
     "name": {
       "french": "Angélique",
-      "english": "Angelica"
+      "english": "angelica"
     }
   },
   {
-    "id": "the_duck",
+    "id": "duck",
     "name": {
       "french": "Canard",
-      "english": "The Duck"
+      "english": "the duck"
     }
   },
   {
     "id": "lemon_balm",
     "name": {
       "french": "Mélisse",
-      "english": "Lemon Balm"
+      "english": "lemon balm"
     }
   },
   {
     "id": "oat_grass",
     "name": {
       "french": "Fromental",
-      "english": "Oat grass"
+      "english": "oat grass"
     }
   },
   {
     "id": "martagon_lily",
     "name": {
       "french": "Martagon",
-      "english": "Martagon lily"
+      "english": "the martagon lily"
     }
   },
   {
     "id": "thyme_plant",
     "name": {
       "french": "Serpolet",
-      "english": "Thyme plant"
+      "english": "the thyme plant"
     }
   },
   {
     "id": "scythe",
     "name": {
       "french": "Faux",
-      "english": "Scythe"
+      "english": "the scythe"
     }
   },
   {
     "id": "strawberry",
     "name": {
       "french": "Fraise",
-      "english": "Strawberry"
+      "english": "the strawberry"
     }
   },
   {
     "id": "woundwort",
     "name": {
       "french": "Bétoine",
-      "english": "Woundwort"
+      "english": "woundwort"
     }
   },
   {
     "id": "pea",
     "name": {
       "french": "Pois",
-      "english": "Pea"
+      "english": "the pea"
     }
   },
   {
     "id": "acacia",
     "name": {
       "french": "Acacia",
-      "english": "Acacia"
+      "english": "acacia"
     }
   },
   {
     "id": "quail",
     "name": {
       "french": "Caille",
-      "english": "Quail"
+      "english": "the quail"
     }
   },
   {
     "id": "carnation",
     "name": {
       "french": "Œillet",
-      "english": "Carnation"
+      "english": "the carnation"
     }
   },
   {
     "id": "elderberry",
     "name": {
       "french": "Sureau",
-      "english": "Elderberry"
+      "english": "the elderberry"
     }
   },
   {
     "id": "poppy_plant",
     "name": {
       "french": "Pavot",
-      "english": "Poppy plant"
+      "english": "the Poppy plant"
     }
   },
   {
     "id": "linden",
     "name": {
       "french": "Tilleul",
-      "english": "Linden"
+      "english": "linden"
     },
     "description": "Lime tree"
   },
@@ -1823,546 +1823,546 @@
     "id": "pitchfork",
     "name": {
       "french": "Fourche",
-      "english": "Pitchfork"
+      "english": "the pitchfork"
     }
   },
   {
     "id": "cornflower",
     "name": {
       "french": "Barbeau",
-      "english": "Cornflower"
+      "english": "the cornflower"
     }
   },
   {
     "id": "camomile",
     "name": {
       "french": "Camomille",
-      "english": "Camomile"
+      "english": "camomile"
     }
   },
   {
     "id": "honeysuckle",
     "name": {
       "french": "Chèvrefeuille",
-      "english": "Honeysuckle"
+      "english": "honeysuckle"
     }
   },
   {
     "id": "bedstraw",
     "name": {
       "french": "caille-lait",
-      "english": "Bedstraw"
+      "english": "bedstraw"
     }
   },
   {
     "id": "tench",
     "name": {
       "french": "Tanche",
-      "english": "Tench"
+      "english": "tench"
     }
   },
   {
     "id": "jasmine_plant",
     "name": {
       "french": "Jasmin",
-      "english": "Jasmine Plant"
+      "english": "the Jasmine plant"
     }
   },
   {
     "id": "verbena",
     "name": {
       "french": "Verveine",
-      "english": "Verbena"
+      "english": "verbena"
     }
   },
   {
     "id": "thyme_plant",
     "name": {
       "french": "Thym",
-      "english": "Thyme Plant"
+      "english": "the thyme plant"
     }
   },
   {
     "id": "peony_plant",
     "name": {
       "french": "Pivoine",
-      "english": "Peony Plant"
+      "english": "the peony plant"
     }
   },
   {
     "id": "hand_cart",
     "name": {
       "french": "Chariot",
-      "english": "Hand Cart"
+      "english": "the hand cart"
     }
   },
   {
     "id": "rye",
     "name": {
       "french": "Seigle",
-      "english": "Rye"
+      "english": "rye"
     }
   },
   {
     "id": "oats",
     "name": {
       "french": "Avoine",
-      "english": "Oats"
+      "english": "oats"
     }
   },
   {
     "id": "onion",
     "name": {
       "french": "Oignon",
-      "english": "Onion"
+      "english": "the onion"
     }
   },
   {
     "id": "speedwell",
     "name": {
       "french": "Véronique",
-      "english": "Speedwell"
+      "english": "speedwell"
     }
   },
   {
     "id": "mule",
     "name": {
       "french": "Mulet",
-      "english": "Mule"
+      "english": "the mule"
     }
   },
   {
     "id": "rosemary",
     "name": {
       "french": "Romarin",
-      "english": "Rosemary"
+      "english": "rosemary"
     }
   },
   {
     "id": "cucumber",
     "name": {
       "french": "Concombre",
-      "english": "Cucumber"
+      "english": "the cucumber"
     }
   },
   {
     "id": "shallot",
     "name": {
       "french": "Échalote",
-      "english": "Shallot"
+      "english": "the shallot"
     }
   },
   {
     "id": "wormwood",
     "name": {
       "french": "Absinthe",
-      "english": "Wormwood"
+      "english": "wormwood"
     }
   },
   {
     "id": "sickle",
     "name": {
       "french": "Faucille",
-      "english": "Sickle"
+      "english": "the sickle"
     }
   },
   {
     "id": "coriander",
     "name": {
       "french": "Coriandre",
-      "english": "Coriander"
+      "english": "coriander"
     }
   },
   {
     "id": "artichoke",
     "name": {
       "french": "Artichaut",
-      "english": "Artichoke"
+      "english": "the artichoke"
     }
   },
   {
     "id": "clove",
     "name": {
       "french": "Girofle",
-      "english": "Clove"
+      "english": "clove"
     }
   },
   {
     "id": "lavender",
     "name": {
       "french": "Lavande",
-      "english": "Lavender"
+      "english": "lavender"
     }
   },
   {
     "id": "chamois",
     "name": {
       "french": "Chamois",
-      "english": "Chamois"
+      "english": "chamois"
     }
   },
   {
     "id": "tobacco",
     "name": {
       "french": "Tabac",
-      "english": "Tobacco"
+      "english": "tobacco"
     }
   },
   {
     "id": "currant",
     "name": {
       "french": "Groseille",
-      "english": "Currant"
+      "english": "currant"
     }
   },
   {
     "id": "hairy_vetchling",
     "name": {
       "french": "Gesse",
-      "english": "Hairy Vetchling"
+      "english": "the hairy vetchling"
     }
   },
   {
     "id": "cherry",
     "name": {
       "french": "Cerise",
-      "english": "Cherry"
+      "english": "the cherry"
     }
   },
   {
     "id": "park",
     "name": {
       "french": "Parc",
-      "english": "Park"
+      "english": "the park"
     }
   },
   {
     "id": "mint",
     "name": {
       "french": "Menthe",
-      "english": "Mint"
+      "english": "mint"
     }
   },
   {
     "id": "cumin",
     "name": {
       "french": "Cumin",
-      "english": "Cumin"
+      "english": "cumin"
     }
   },
   {
     "id": "bean",
     "name": {
       "french": "Haricot",
-      "english": "Bean"
+      "english": "the bean"
     }
   },
   {
     "id": "alkanet",
     "name": {
       "french": "Orcanète",
-      "english": "Alkanet"
+      "english": "alkanet"
     }
   },
   {
     "id": "guinea_fowl",
     "name": {
       "french": "Pintade",
-      "english": "Guinea fowl"
+      "english": "the guinea fowl"
     }
   },
   {
     "id": "sage_plant",
     "name": {
       "french": "Sauge",
-      "english": "Sage Plant"
+      "english": "the sage plant"
     }
   },
   {
     "id": "garlic",
     "name": {
       "french": "Ail",
-      "english": "Garlic"
+      "english": "garlic"
     }
   },
   {
     "id": "tare",
     "name": {
       "french": "Vesce",
-      "english": "Tare"
+      "english": "tare"
     }
   },
   {
     "id": "wheat",
     "name": {
       "french": "Blé",
-      "english": "Wheat"
+      "english": "wheat"
     }
   },
   {
     "id": "shawm",
     "name": {
       "french": "Chalémie",
-      "english": "Shawm"
+      "english": "shawm"
     }
   },
   {
     "id": "einkorn_wheat",
     "name": {
       "french": "Épeautre",
-      "english": "Einkorn Wheat"
+      "english": "Einkorn wheat"
     }
   },
   {
     "id": "common_mullein",
     "name": {
       "french": "Bouillon blanc",
-      "english": "Common Mullein"
+      "english": "the common mullein"
     }
   },
   {
     "id": "honeydew_melon",
     "name": {
       "french": "Melon",
-      "english": "Honeydew Melon"
+      "english": "the honeydew melon"
     }
   },
   {
     "id": "ryegrass",
     "name": {
       "french": "Ivraie",
-      "english": "Ryegrass"
+      "english": "ryegrass"
     }
   },
   {
     "id": "ram",
     "name": {
       "french": "Bélier",
-      "english": "Ram"
+      "english": "the ram"
     }
   },
   {
     "id": "horsetail",
     "name": {
       "french": "Prêle",
-      "english": "Horsetail"
+      "english": "horsetail"
     }
   },
   {
     "id": "mugwort",
     "name": {
       "french": "Armoise",
-      "english": "Mugwort"
+      "english": "mugwort"
     }
   },
   {
     "id": "safflower",
     "name": {
       "french": "Carthame",
-      "english": "Safflower"
+      "english": "the safflower"
     }
   },
   {
     "id": "blackberry",
     "name": {
       "french": "Mûre",
-      "english": "Blackberry"
+      "english": "the blackberry"
     }
   },
   {
     "id": "watering_can",
     "name": {
       "french": "Arrosoir",
-      "english": "Watering Can"
+      "english": "the watering can"
     }
   },
   {
     "id": "panic_grass",
     "name": {
       "french": "Panis",
-      "english": "Panic grass"
+      "english": "panic grass"
     }
   },
   {
     "id": "common_glasswort",
     "name": {
       "french": "Salicorne",
-      "english": "Common Glasswort"
+      "english": "common glasswort"
     }
   },
   {
     "id": "apricot",
     "name": {
       "french": "Abricot",
-      "english": "Apricot"
+      "english": "the apricot"
     }
   },
   {
     "id": "basil",
     "name": {
       "french": "Basilic",
-      "english": "Basil"
+      "english": "basil"
     }
   },
   {
     "id": "ewe",
     "name": {
       "french": "Brebis",
-      "english": "Ewe"
+      "english": "the ewe"
     }
   },
   {
     "id": "marshmallow_root",
     "name": {
       "french": "Guimauve",
-      "english": "Marshmallow root"
+      "english": "the marshmallow root"
     }
   },
   {
     "id": "flax",
     "name": {
       "french": "Lin",
-      "english": "Flax"
+      "english": "flax"
     }
   },
   {
     "id": "almond",
     "name": {
       "french": "Amande",
-      "english": "Almond"
+      "english": "the almond"
     }
   },
   {
     "id": "gentian",
     "name": {
       "french": "Gentiane",
-      "english": "Gentian"
+      "english": "the gentian"
     }
   },
   {
     "id": "lock",
     "name": {
       "french": "Écluse",
-      "english": "Lock"
+      "english": "the lock"
     }
   },
   {
     "id": "carline_thistle",
     "name": {
       "french": "Carline",
-      "english": "Carline thistle"
+      "english": "the carline thistle"
     }
   },
   {
     "id": "caper",
     "name": {
       "french": "Câprier",
-      "english": "Caper"
+      "english": "the caper"
     }
   },
   {
     "id": "lentil",
     "name": {
       "french": "Lentille",
-      "english": "Lentil"
+      "english": "the lentil"
     }
   },
   {
     "id": "yellow_starwort",
     "name": {
       "french": "Aunée",
-      "english": "Yellow starwort"
+      "english": "the yellow starwort"
     }
   },
   {
     "id": "otter",
     "name": {
       "french": "Loutre",
-      "english": "Otter"
+      "english": "the otter"
     }
   },
   {
     "id": "myrtle",
     "name": {
       "french": "Myrte",
-      "english": "Myrtle"
+      "english": "myrtle"
     }
   },
   {
     "id": "rapeseed",
     "name": {
       "french": "Colza",
-      "english": "Rapeseed"
+      "english": "the rapeseed"
     }
   },
   {
     "id": "lupin",
     "name": {
       "french": "Lupin",
-      "english": "Lupin"
+      "english": "lupin"
     }
   },
   {
     "id": "cotton",
     "name": {
       "french": "Coton",
-      "english": "Cotton"
+      "english": "cotton"
     }
   },
   {
     "id": "mill",
     "name": {
       "french": "Moulin",
-      "english": "Mill"
+      "english": "the mill"
     }
   },
   {
     "id": "plum",
     "name": {
       "french": "Prune",
-      "english": "Plum"
+      "english": "the plum"
     }
   },
   {
     "id": "millet",
     "name": {
       "french": "Millet",
-      "english": "Millet"
+      "english": "the millet"
     }
   },
   {
     "id": "puffball",
     "name": {
       "french": "Lycoperdon",
-      "english": "Puffball"
+      "english": "the puffball"
     }
   },
   {
     "id": "six_row_barley",
     "name": {
       "french": "Escourgeon",
-      "english": "Six-row Barley"
+      "english": "six-row barley"
     }
   },
   {
     "id": "salmon",
     "name": {
       "french": "Saumon",
-      "english": "Salmon"
+      "english": "salmon"
     }
   },
   {
     "id": "tuberose",
     "name": {
       "french": "Tubéreuse",
-      "english": "Tuberose"
+      "english": "tuberose"
     }
   },
   {
     "id": "sugar_melon",
     "name": {
       "french": "Sucrion",
-      "english": "Sugar melon"
+      "english": "the sugar melon"
     }
   },
   {
@@ -2376,140 +2376,140 @@
     "id": "liquorice",
     "name": {
       "french": "Réglisse",
-      "english": "Liquorice"
+      "english": "liquorice"
     }
   },
   {
     "id": "ladder",
     "name": {
       "french": "Échelle",
-      "english": "Ladder"
+      "english": "the ladder"
     }
   },
   {
     "id": "watermelon",
     "name": {
       "french": "Pastèque",
-      "english": "Watermelon"
+      "english": "the watermelon"
     }
   },
   {
     "id": "fennel",
     "name": {
       "french": "Fenouil",
-      "english": "Fennel"
+      "english": "fennel"
     }
   },
   {
     "id": "barberry",
     "name": {
       "french": "Épine vinette",
-      "english": "Barberry"
+      "english": "the barberry"
     }
   },
   {
     "id": "walnut",
     "name": {
       "french": "Noix",
-      "english": "Walnut"
+      "english": "the walnut"
     }
   },
   {
     "id": "trout",
     "name": {
       "french": "Truite",
-      "english": "Trout"
+      "english": "the trout"
     }
   },
   {
     "id": "lemon",
     "name": {
       "french": "Citron",
-      "english": "Lemon"
+      "english": "the lemon"
     }
   },
   {
     "id": "teasel",
     "name": {
       "french": "Cardère",
-      "english": "Teasel"
+      "english": "teasel"
     }
   },
   {
     "id": "buckthorn",
     "name": {
       "french": "Nerprun",
-      "english": "Buckthorn"
+      "english": "the buckthorn"
     }
   },
   {
     "id": "mexican_marigold",
     "name": {
       "french": "Tagette",
-      "english": "Mexican Marigold"
+      "english": "the Mexican marigold"
     }
   },
   {
     "id": "sack",
     "name": {
       "french": "Hotte",
-      "english": "Sack"
+      "english": "the sack"
     }
   },
   {
     "id": "wild_rose",
     "name": {
       "french": "Églantine",
-      "english": "Wild Rose"
+      "english": "the wild rose"
     }
   },
   {
     "id": "hazelnut",
     "name": {
       "french": "Noisette",
-      "english": "Hazelnut"
+      "english": "the hazelnut"
     }
   },
   {
     "id": "hops",
     "name": {
       "french": "Houblon",
-      "english": "Hops"
+      "english": "hops"
     }
   },
   {
     "id": "sorghum",
     "name": {
       "french": "Sorgho",
-      "english": "Sorghum"
+      "english": "sorghum"
     }
   },
   {
     "id": "crayfish",
     "name": {
       "french": "Écrevisse",
-      "english": "Crayfish"
+      "english": "the crayfish"
     }
   },
   {
     "id": "bitter_orange",
     "name": {
       "french": "Bigarade",
-      "english": "Bitter Orange"
+      "english": "the bitter orange"
     }
   },
   {
     "id": "goldenrod",
     "name": {
       "french": "Verge d’or",
-      "english": "Goldenrod"
+      "english": "goldenrod"
     }
   },
   {
     "id": "maize",
     "name": {
       "french": "Maïs",
-      "english": "Maize"
+      "english": "maize"
     },
     "description": "Corn"
   },
@@ -2517,14 +2517,14 @@
     "id": "chestnut",
     "name": {
       "french": "Marron",
-      "english": "Chestnut"
+      "english": "the chestnut"
     }
   },
   {
     "id": "basket",
     "name": {
       "french": "Panier",
-      "english": "Basket"
+      "english": "the basket"
     }
   },
   {

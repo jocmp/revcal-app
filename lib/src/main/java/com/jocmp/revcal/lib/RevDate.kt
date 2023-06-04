@@ -1,6 +1,9 @@
 package com.jocmp.revcal.lib
 
 import java.time.LocalDate
+import java.time.temporal.ChronoUnit
+import kotlin.time.Duration
+import kotlin.time.DurationUnit
 
 data class RevDate(val year: Int, val month: RevMonth, val day: Int) {
     /**
@@ -20,7 +23,8 @@ data class RevDate(val year: Int, val month: RevMonth, val day: Int) {
          */
         fun fromGregorian(date: LocalDate): RevDate {
             val start = LocalDate.of(1792, 9, 22)
-            var days = start.datesUntil(date).count().toInt()
+            var days = ChronoUnit.DAYS.between(start, date).toInt()
+
             var year = 1
             var yearLength = length(year)
 
