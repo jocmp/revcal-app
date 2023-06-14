@@ -10,7 +10,7 @@ internal class RevSymbolTest {
         val symbol = RevSymbol.all[194]
 
         assertEquals("bee", symbol.id)
-        assertEquals("Abeille", symbol.name.french)
-        assertEquals("Bee", symbol.name.english)
+        assertEquals("Abeille", symbol.frenchName)
+        assertEquals("Bee", symbol.name)
     }
 }

@@ -2,11 +2,12 @@ package com.jocmp.revcal.app.ui
 
 import java.time.LocalDate
 
-data class RevDateViewModel(
+data class HomeViewModel(
     val isPreviousDayEnabled: Boolean = true,
     val goToNextDay: () -> Unit = {},
     val goToPreviousDay: () -> Unit = {},
     val jumpToDay: (day: LocalDate) -> Unit = {},
-    val description: String = "",
     val day: LocalDate,
+    val description: String = "",
+    val image: String? = null
 )

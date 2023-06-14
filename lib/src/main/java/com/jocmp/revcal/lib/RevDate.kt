@@ -6,17 +6,6 @@ import kotlin.time.Duration
 import kotlin.time.DurationUnit
 
 data class RevDate(val year: Int, val month: RevMonth, val day: Int) {
-    /**
-     * So we have arranged in the column of each month,
-     * the names of the real treasures of the rural economy.
-     *             - Fabregi d'Églantine
-     */
-    val symbol: RevSymbol by lazy {
-        val dayIndex = 30 * month.ordinal + (day - 1)
-
-        RevSymbol.all[dayIndex]
-    }
-
     companion object {
         const val FIRST_REPUBLICAN_GREGORIAN_YEAR = 1792
         const val FIRST_REPUBLICAN_GREGORIAN_MONTH = 9

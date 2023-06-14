@@ -5,6 +5,8 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.res.stringResource
 import com.jocmp.revcal.app.R
+import com.jocmp.revcal.app.lib.Async
+import com.jocmp.revcal.client.Symbol
 import com.jocmp.revcal.lib.RevDate
 import com.jocmp.revcal.lib.RevDate.Companion.FIRST_REPUBLICAN_GREGORIAN_DAY
 import com.jocmp.revcal.lib.RevDate.Companion.FIRST_REPUBLICAN_GREGORIAN_MONTH
@@ -12,8 +14,13 @@ import com.jocmp.revcal.lib.RevDate.Companion.FIRST_REPUBLICAN_GREGORIAN_YEAR
 import java.time.LocalDate
 
 @Composable
-fun useRevDate(currentDate: LocalDate = LocalDate.now()): RevDateViewModel {
+fun useHomeViewModel(currentDate: LocalDate = LocalDate.now()): HomeViewModel {
     val (day, setDay) = rememberSaveable { mutableStateOf(currentDate) }
+
+    val (symbols, loading) = when (val data = useSymbols()) {
+        is Async.Success -> Pair(data(), false)
+        else -> Pair(emptyList(), true)
+    }
 
     fun nextDay() {
         setDay(day.plusDays(1))
@@ -31,14 +38,36 @@ fun useRevDate(currentDate: LocalDate = LocalDate.now()): RevDateViewModel {
         jumpToDay(day.minusDays(1))
     }
 
-    return RevDateViewModel(
+    val defaultModel = HomeViewModel(
         isPreviousDayEnabled = day.isAfter(lowerBoundDay),
         goToNextDay = { nextDay() },
         goToPreviousDay = { previousDay() },
         jumpToDay = { jumpToDay(it) },
-        day = day,
-        description = formatRevDate(day)
+        day = day
     )
+
+    if (loading) {
+        return defaultModel
+    }
+
+    val revDate = RevDate.fromGregorian(day)
+    val symbol = findSymbol(revDate, symbols)
+
+    return defaultModel.copy(
+        description =  formatRevDate(day, revDate, symbol),
+        image = symbol.imageURL
+    )
+}
+
+/**
+ * So we have arranged in the column of each month,
+ * the names of the real treasures of the rural economy.
+ *             - Fabregi d'Églantine
+ */
+private fun findSymbol(revDate: RevDate, symbols: List<Symbol>): Symbol {
+    val dayIndex = 30 * revDate.month.ordinal + (revDate.day - 1)
+
+    return symbols[dayIndex]
 }
 
 private val lowerBoundDay: LocalDate = LocalDate.of(
@@ -48,9 +77,7 @@ private val lowerBoundDay: LocalDate = LocalDate.of(
 )
 
 @Composable
-fun formatRevDate(day: LocalDate): String {
-    val revDate = RevDate.fromGregorian(day)
-
+fun formatRevDate(day: LocalDate, revDate: RevDate, symbol: Symbol): String {
     val formattedDate = stringResource(
         R.string.formatted_day,
         revDate.day,
@@ -62,13 +89,13 @@ fun formatRevDate(day: LocalDate): String {
         stringResource(
             R.string.current_day_celebration,
             formattedDate,
-            revDate.symbol.name.english
+            symbol.name
         )
     } else {
         stringResource(
             R.string.other_day_celebration,
             formattedDate,
-            revDate.symbol.name.english
+            symbol.name
         )
     }
 }

@@ -4,7 +4,8 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -17,11 +18,12 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import coil.compose.AsyncImage
 import com.jocmp.revcal.app.ui.theme.RevCalTheme
 import java.time.LocalDate
 
 @Composable
-fun HomeLayout(viewModel: RevDateViewModel = useRevDate()) {
+fun HomeLayout(viewModel: HomeViewModel = useHomeViewModel()) {
     Column(
         Modifier
             .padding(16.dp)
@@ -36,32 +38,43 @@ fun HomeLayout(viewModel: RevDateViewModel = useRevDate()) {
         ) {
             Box(
                 Modifier
+                    .height(500.dp)
+                    .aspectRatio(1f)
                     .padding(bottom = 8.dp)
                     .fillMaxWidth()
-                    .height(500.dp)
                     .background(Color.Cyan)
-            )
-            Text(
-                text = viewModel.description,
-                textAlign = TextAlign.Center
+            ) {
+                AsyncImage(model = viewModel.image, contentDescription = null)
+            }
+            Box(
+                Modifier
+                    .fillMaxHeight(1 / 3f)
+                    .padding(bottom = 8.dp),
+                contentAlignment = Alignment.BottomStart
+            ) {
+                Text(
+                    text = viewModel.description,
+                    textAlign = TextAlign.Center
+                )
+            }
+            DateSelector(
+                day = viewModel.day,
+                goToPreviousDay = { viewModel.goToPreviousDay() },
+                goToNextDay = { viewModel.goToNextDay() },
+                jumpToDay = { viewModel.jumpToDay(it) },
+                isPreviousDayEnabled = viewModel.isPreviousDayEnabled
             )
         }
-        DateSelector(
-            day = viewModel.day,
-            goToPreviousDay = { viewModel.goToPreviousDay() },
-            goToNextDay = { viewModel.goToNextDay() },
-            jumpToDay = { viewModel.jumpToDay(it) },
-            isPreviousDayEnabled = viewModel.isPreviousDayEnabled
-        )
     }
 }
 
 @Preview(showSystemUi = true)
 @Composable
 fun HomeLayoutPreview() {
-    val viewModel = RevDateViewModel(
+    val viewModel = HomeViewModel(
         description = "16 Vendemiaire 1 celebrates the four o'clock flower",
-        day = LocalDate.of(1792, 10, 7)
+        day = LocalDate.of(1792, 10, 7),
+        image = null,
     )
     RevCalTheme {
         HomeLayout(viewModel)
