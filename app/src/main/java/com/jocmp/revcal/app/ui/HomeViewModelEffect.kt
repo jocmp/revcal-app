@@ -1,5 +1,7 @@
 package com.jocmp.revcal.app.ui
 
+import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
@@ -13,6 +15,7 @@ import com.jocmp.revcal.lib.RevDate.Companion.FIRST_REPUBLICAN_GREGORIAN_MONTH
 import com.jocmp.revcal.lib.RevDate.Companion.FIRST_REPUBLICAN_GREGORIAN_YEAR
 import java.time.LocalDate
 
+@OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun useHomeViewModel(currentDate: LocalDate = LocalDate.now()): HomeViewModel {
     val (day, setDay) = rememberSaveable { mutableStateOf(currentDate) }
@@ -43,7 +46,8 @@ fun useHomeViewModel(currentDate: LocalDate = LocalDate.now()): HomeViewModel {
         goToNextDay = { nextDay() },
         goToPreviousDay = { previousDay() },
         jumpToDay = { jumpToDay(it) },
-        day = day
+        day = day,
+        isLoading = loading
     )
 
     if (loading) {
@@ -51,11 +55,12 @@ fun useHomeViewModel(currentDate: LocalDate = LocalDate.now()): HomeViewModel {
     }
 
     val revDate = RevDate.fromGregorian(day)
-    val symbol = findSymbol(revDate, symbols)
+    val currentIndex = findSymbolIndex(revDate)
 
     return defaultModel.copy(
-        description =  formatRevDate(day, revDate, symbol),
-        image = symbol.imageURL
+        description =  formatRevDate(day, revDate, symbols[currentIndex]),
+        symbols = symbols,
+        currentIndex = currentIndex
     )
 }
 
@@ -64,10 +69,8 @@ fun useHomeViewModel(currentDate: LocalDate = LocalDate.now()): HomeViewModel {
  * the names of the real treasures of the rural economy.
  *             - Fabregi d'Églantine
  */
-private fun findSymbol(revDate: RevDate, symbols: List<Symbol>): Symbol {
-    val dayIndex = 30 * revDate.month.ordinal + (revDate.day - 1)
-
-    return symbols[dayIndex]
+private fun findSymbolIndex(revDate: RevDate): Int {
+    return 30 * revDate.month.ordinal + (revDate.day - 1)
 }
 
 private val lowerBoundDay: LocalDate = LocalDate.of(

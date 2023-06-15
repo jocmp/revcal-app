@@ -1,5 +1,6 @@
 package com.jocmp.revcal.app.ui
 
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -10,6 +11,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.pager.HorizontalPager
+import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -22,8 +25,37 @@ import coil.compose.AsyncImage
 import com.jocmp.revcal.app.ui.theme.RevCalTheme
 import java.time.LocalDate
 
+@OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun HomeLayout(viewModel: HomeViewModel = useHomeViewModel()) {
+    Wrapper(loading = viewModel.isLoading) {
+        SymbolPager(
+            symbols = viewModel.symbols,
+            initialPage = viewModel.currentIndex
+        )
+        Box(
+            Modifier
+                .fillMaxHeight(1 / 3f)
+                .padding(bottom = 8.dp),
+            contentAlignment = Alignment.BottomStart
+        ) {
+            Text(
+                text = viewModel.description,
+                textAlign = TextAlign.Center
+            )
+        }
+        DateSelector(
+            day = viewModel.day,
+            goToPreviousDay = { viewModel.goToPreviousDay() },
+            goToNextDay = { viewModel.goToNextDay() },
+            jumpToDay = { viewModel.jumpToDay(it) },
+            isPreviousDayEnabled = viewModel.isPreviousDayEnabled
+        )
+    }
+}
+
+@Composable
+fun Wrapper(loading: Boolean, content: @Composable() () -> Unit) {
     Column(
         Modifier
             .padding(16.dp)
@@ -36,47 +68,9 @@ fun HomeLayout(viewModel: HomeViewModel = useHomeViewModel()) {
                 .padding(bottom = 16.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Box(
-                Modifier
-                    .height(500.dp)
-                    .aspectRatio(1f)
-                    .padding(bottom = 8.dp)
-                    .fillMaxWidth()
-                    .background(Color.Cyan)
-            ) {
-                AsyncImage(model = viewModel.image, contentDescription = null)
+            if (!loading) {
+                content()
             }
-            Box(
-                Modifier
-                    .fillMaxHeight(1 / 3f)
-                    .padding(bottom = 8.dp),
-                contentAlignment = Alignment.BottomStart
-            ) {
-                Text(
-                    text = viewModel.description,
-                    textAlign = TextAlign.Center
-                )
-            }
-            DateSelector(
-                day = viewModel.day,
-                goToPreviousDay = { viewModel.goToPreviousDay() },
-                goToNextDay = { viewModel.goToNextDay() },
-                jumpToDay = { viewModel.jumpToDay(it) },
-                isPreviousDayEnabled = viewModel.isPreviousDayEnabled
-            )
         }
-    }
-}
-
-@Preview(showSystemUi = true)
-@Composable
-fun HomeLayoutPreview() {
-    val viewModel = HomeViewModel(
-        description = "16 Vendemiaire 1 celebrates the four o'clock flower",
-        day = LocalDate.of(1792, 10, 7),
-        image = null,
-    )
-    RevCalTheme {
-        HomeLayout(viewModel)
     }
 }
